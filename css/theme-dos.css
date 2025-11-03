@@ -1,0 +1,7 @@
+:root {
+  --bg:#010;
+  --accent:#00ff44;
+  --muted:#777;
+}
+
+h1, .pubs .title, nav a { color:var(--accent); }
