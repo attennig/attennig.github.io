@@ -5,3 +5,22 @@
 }
 
 h1, .pubs .title, nav a { color:var(--accent); }
+
+/* link colors */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  transition: color .15s ease, box-shadow .15s ease;
+}
+a:visited {
+  color: #e517ab; /* slightly darker active state */
+}
+a:hover,
+a:focus {
+  color: #bfffd6; /* lighter tint of --accent */
+  text-decoration: underline;
+}
+a:active {
+  color: #00cc33; /* slightly darker active state */
+}
